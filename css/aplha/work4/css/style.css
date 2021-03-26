@@ -1,0 +1,157 @@
+body
+{
+	background-image:url("../img/back.jpg");
+	background-size:cover;
+}
+h2{
+	color:white;
+	text-align:center;
+}
+div input{
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	color:#5b8094;
+	
+}
+div{
+	
+	text-align:center;
+	background-color:rgba(1,1,1,0.8);
+	width:450px;
+	height:500px;
+	position:relative;
+	left:400px;
+	
+}
+
+
+.frm
+{
+	width:300px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.8);
+	transition:5s;
+	outline:none;
+	
+
+}
+.frm:focus
+{
+	box-shadow:0px 0px 20px 20px #5b8094;
+}
+textarea
+{
+	text-align:center;
+}
+.frm-btn
+{
+	/*float:right;*/
+	padding:15px 50px;
+	border-radius:30px;
+	background:rgba(255,255,255,0.6);
+	outline:none;
+	
+}
+a{
+	text-decoration:none;
+	
+	
+	 
+	}
+
+.menubar ul
+{
+
+	
+	list-style:none;
+	display:inline-flex;
+	
+    
+	
+}
+.menubar{
+	background-color:black;
+	text-align:center;
+	}
+.menubar a
+{
+	color:#ffffff;
+	
+	
+	}
+.subclass
+{
+	display:none;
+	
+}
+.subclass ul{
+	margin-left:-35px;
+	
+}
+.menubar li
+{
+	
+	padding:15px;
+	font-size:30px;
+	
+}
+.menubar ul li:hover{
+	background-color:red;
+	border-radius:10px;
+
+	}
+.menubar ul li:hover .subclass
+{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:10px;
+	padding:10px;
+	height:auto;
+	width:auto;
+}
+.menubar ul li:hover .subclass ul
+{
+	display:block;
+}
+.menubar ul li:hover .subclass ul li
+{
+	padding:10px;
+	border-bottom:1px solid red;
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width:992px)
+{
+.a
+{
+	display:block;
+	width:auto;
+	padding:10px;
+	transition:0s;
+	height:1500px;
+	left:0px;
+    font-size:50px;
+}
+.frm{
+	font-size:50px;
+	height:100px;
+	width:600px;
+}
+.frm-btn
+{
+	width:300px;
+	height:100px;
+	font-size:50px;
+	
+	
+}
+}

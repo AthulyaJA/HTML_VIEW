@@ -1,0 +1,115 @@
+body{
+	 background-color:rgba(1,1,1,0.2);
+	 
+}
+
+.gal
+{
+text-align:center;
+
+	
+}
+.gal img
+{
+	width:300px;
+    height:150px;
+    margin:40px;
+    box-shadow:10px 10px 5px gray;
+    filter:grayscale(100%);	
+	transition:1s;
+	padding:30px;
+	
+	
+	
+}
+.gal img:hover
+{
+	filter:grayscale(0%);
+	transform:scale(1.2);
+	cursor:pointer;
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	
+	
+	 
+	}
+.menubar ul
+{
+
+	
+	list-style:none;
+	display:inline-flex;
+	
+    
+	
+}
+.menubar{
+	background-color:black;
+	text-align:center;
+	}
+.menubar a
+{
+	color:#ffffff;
+	
+	
+	}
+.subclass
+{
+	display:none;
+	
+}
+.subclass ul{
+	margin-left:-35px;
+}
+.menubar li
+{
+	
+	padding:15px;
+	
+}
+.menubar ul li:hover{
+	background-color:red;
+	border-radius:10px;
+
+	}
+.menubar ul li:hover .subclass
+{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:10px;
+	padding:10px;
+}
+.menubar ul li:hover .subclass ul
+{
+	display:block;
+}
+.menubar ul li:hover .subclass ul li
+{
+	padding:10px;
+	border-bottom:1px solid red;
+	
+	
+	
+}
+@media only screen and (max-width:992px)
+
+
+{
+.gal img
+{
+width:auto;
+height:580px;
+margin:40px;
+
+}
+.menubar
+{
+	font-size:30px;
+}
+	
+}
